@@ -1,12 +1,12 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/honeycombexporter
 
-go 1.17
+go 1.24
 
 require (
 	github.com/google/go-cmp v0.5.8
-	github.com/honeycombio/libhoney-go v1.15.8
-	github.com/klauspost/compress v1.15.6
-	github.com/stretchr/testify v1.7.2
+	github.com/honeycombio/libhoney-go v1.27.1
+	github.com/klauspost/compress v1.18.5
+	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector v0.53.0
 	go.opentelemetry.io/collector/pdata v0.53.0
 	go.uber.org/multierr v1.8.0
@@ -34,7 +34,7 @@ require (
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
+	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.opentelemetry.io/otel v1.7.0 // indirect
