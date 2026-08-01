@@ -1,15 +1,15 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.53.0
 	github.com/prometheus/common v0.34.0
 	github.com/prometheus/prometheus v0.36.0
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector v0.53.0
 	go.opentelemetry.io/collector/pdata v0.53.0
-	go.opentelemetry.io/collector/semconv v0.53.0
+	go.opentelemetry.io/collector/semconv v0.128.0
 	go.uber.org/multierr v1.8.0
 )
 
