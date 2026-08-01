@@ -1,13 +1,13 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter
 
-go 1.17
+go 1.22.0
 
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.53.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.53.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.53.0
 	github.com/prometheus/client_golang v1.12.2
-	github.com/prometheus/client_model v0.2.0
+	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.34.0
 	github.com/prometheus/prometheus v0.36.0
 	github.com/stretchr/testify v1.7.2
@@ -132,7 +132,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220527130721-00d5c0f3be58 // indirect
 	google.golang.org/grpc v1.47.0 // indirect
-	google.golang.org/protobuf v1.28.0 // indirect
+	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.24.1 // indirect
