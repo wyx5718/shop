@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver
 
-go 1.17
+go 1.25.0
 
 require (
 	github.com/leoluk/perflib_exporter v0.1.0
@@ -11,8 +11,7 @@ require (
 	go.opentelemetry.io/collector/pdata v0.53.0
 	go.opentelemetry.io/collector/semconv v0.53.0
 	go.uber.org/zap v1.21.0
-	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
-
+	golang.org/x/sys v0.47.0
 )
 
 require (
