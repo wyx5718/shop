@@ -320,7 +320,7 @@ jobs:
       - name: Build Collector ${{ matrix.binary }}
         run: make GOOS=${{ matrix.os }} GOARCH=${{ matrix.arch }} otelcontribcol
       - name: Upload Collector Binaries
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: collector-binaries
           path: ./bin/*
@@ -364,7 +364,7 @@ jobs:
               ./internal/buildscripts/packaging/fpm/test.sh dist/otel-contrib-collector*x86_64.rpm examples/tracing/otel-collector-config.yml
           fi
       - name: Upload Packages
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: collector-packages
           path: ./dist/*
@@ -400,7 +400,7 @@ jobs:
       - name: Validate MSI
         run: .\internal\buildscripts\packaging\msi\make.ps1 Confirm-MSI
       - name: Upload MSI
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: collector-packages
           path: ./dist/*.msi
