@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver
 
-go 1.17
+go 1.23
 
 require (
 	github.com/gorilla/mux v1.8.0
@@ -10,7 +10,7 @@ require (
 	go.opentelemetry.io/collector/semconv v0.53.0
 	go.uber.org/multierr v1.8.0
 	google.golang.org/grpc v1.47.0
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.36.12
 	skywalking.apache.org/repo/goapi v0.0.0-20220121092418-9c455d0dda3f
 )
 
