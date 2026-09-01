@@ -1,10 +1,10 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor
 
-go 1.17
+go 1.22.0
 
 require (
 	github.com/alecthomas/participle/v2 v2.0.0-alpha9
-	github.com/gobwas/glob v0.2.3
+	github.com/gobwas/glob v1.0.0
 	github.com/stretchr/testify v1.7.2
 	go.opentelemetry.io/collector v0.53.0
 	go.opentelemetry.io/collector/pdata v0.53.0
