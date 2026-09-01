@@ -7,7 +7,7 @@ require (
 	github.com/jaegertracing/jaeger v1.35.1
 	github.com/logzio/jaeger-logzio v1.0.6
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.53.0
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.12.1
 	go.opentelemetry.io/collector v0.53.0
 	go.opentelemetry.io/collector/pdata v0.53.0
 	go.opentelemetry.io/collector/semconv v0.53.0
@@ -19,7 +19,6 @@ require (
 	github.com/avast/retry-go v3.0.0+incompatible // indirect
 	github.com/beeker1121/goque v2.1.0+incompatible // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -47,7 +46,6 @@ require (
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.0-beta.8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/shirou/gopsutil/v3 v3.22.5 // indirect
 	github.com/spf13/afero v1.8.2 // indirect
@@ -66,6 +64,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.7.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/net v0.0.0-20220412020605-290c469a71a5 // indirect
 	golang.org/x/sys v0.0.0-20220503163025-988cb79eb6c6 // indirect
 	golang.org/x/text v0.3.7 // indirect
